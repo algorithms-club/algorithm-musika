@@ -1,34 +1,35 @@
 'use strict';
 
 module.exports = function(arr) {
-    if (!arr.length) {
-        return arr
-    };
+	if (!arr.length) {
+		return arr;
+	}
 
-    let isSwap = false;
-    let i = 0;
+	let isSwap = false;
+	let i = 0;
 
-    do {
+	do {
 
-        if (i >= arr.length - 1) {
-            if (!isSwap) {
-                return arr;
-            }
+		if (i >= arr.length - 1) {
+		if (!isSwap) {
+		return arr;
+	}
 
-            i = 0;
-            isSwap = false;
-            continue;
-        }
+		i = 0;
+		isSwap = false;
+		continue;
+	}
 
-        if (arr[i] > arr[i + 1]) {
-            let lowest = arr[i];
-            arr[i] = arr[i + 1];
-            arr[i + 1] = lowest;
+		if (arr[i] > arr[i + 1]) {
+		let lowest = arr[i];
 
-            isSwap = true;
-        }
+		arr[i] = arr[i + 1];
+		arr[i + 1] = lowest;
 
-        i++;
+		isSwap = true;
+	}
 
-    } while(true);
-}
+		i++;
+
+	} while(true);
+};

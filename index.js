@@ -3,7 +3,7 @@
 let bubbleSort = require('./bubble-sort');
 
 let algolib = {
-    bubbleSort
-}
+	bubbleSort
+};
 
 module.exports = algolib;
