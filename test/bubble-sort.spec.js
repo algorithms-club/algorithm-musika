@@ -1,6 +1,7 @@
 'use strict';
+require('chai').should();
 
-const algolib = require('../index.js');
+const algolib = require('../');
 
 describe('bubble-sort', function() {
 	it('should return emty array when empty array was passed', function() {
@@ -20,5 +21,4 @@ describe('bubble-sort', function() {
 
 		sortedArr.should.be.eql([1, 2, 3, 3, 4, 5, 6, 7]);
 	});
-
 });

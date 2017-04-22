@@ -1,9 +1,6 @@
 'use strict';
 
-let bubbleSort = require('./bubble-sort');
-
-let algolib = {
-	bubbleSort
+module.exports = {
+	bubbleSort: require('./lib/bubble-sort'),
+	UnionFind: require('./lib/unionFind')
 };
-
-module.exports = algolib;
