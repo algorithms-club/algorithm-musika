@@ -1,9 +1,9 @@
 'use strict';
 
-const algolib = require('../index'),
+const algolib = require('../'),
 			expect = require('chai').expect;
 
-describe('#unionFind', function () {
+describe('UnionFind', function () {
 	it('should create propper data structure', function (done) {
 		let uf = new algolib.UnionFind();
 
