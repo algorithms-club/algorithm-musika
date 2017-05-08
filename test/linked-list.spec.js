@@ -3,7 +3,7 @@
 const algolib = require('../'),
 			expect = require('chai').expect;
 
-describe.only('LinkedList', function () {
+describe('LinkedList', function () {
 	describe('#getList()', function () {
 		it('should return an array', function () {
 			let ll = new algolib.LinkedList();
