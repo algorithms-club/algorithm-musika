@@ -3,7 +3,7 @@
 const algolib = require('../'),
 			expect = require('chai').expect;
 
-describe('LinkedList', function () {
+describe.only('LinkedList', function () {
 	describe('#getList()', function () {
 		it('should return an array', function () {
 			let ll = new algolib.LinkedList();
@@ -210,9 +210,14 @@ describe('LinkedList', function () {
 			expect(ll.getList()).to.deep.equal([4, 1, 2]);
 			expect(ll.remove(1)).to.equal(1);
 			expect(ll.getList()).to.deep.equal([4, 2]);
+			expect(ll.push(4)).to.be.true;
+			expect(ll.getList()).to.deep.equal([4, 2, 4]);
+			expect(ll.remove(2)).to.equal(4);
+			expect(ll.getList()).to.deep.equal([4, 2]);
 			expect(ll.add(8, 1)).to.be.true;
 			expect(ll.getList()).to.deep.equal([4, 8, 2]);
 			expect(ll.pop()).to.equal(2);
+			expect(ll.getList()).to.deep.equal([4, 8]);
 			expect(ll.remove()).to.equal(4);
 			expect(ll.getList()).to.deep.equal([8]);
 			expect(ll.push(4)).to.be.true;
