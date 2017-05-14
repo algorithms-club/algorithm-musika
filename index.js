@@ -2,5 +2,8 @@
 
 module.exports = {
 	bubbleSort: require('./lib/bubble-sort'),
-	UnionFind: require('./lib/unionFind')
+	UnionFind: require('./lib/unionFind'),
+	LinkedList: require('./lib/linked-list'),
+	Stack: require('./lib/stack'),
+	Queue: require('./lib/queue')
 };
