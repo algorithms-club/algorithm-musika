@@ -197,16 +197,18 @@ describe('LinkedList', function () {
 		it('should pass', function () {
 			let ll = new algolib.LinkedList();
 
+			ll.add(8);
 			ll.push(1);
 			ll.push(2);
 			ll.add(3);
-			ll.add(4, 1);
-			ll.add(5, 4);
-			ll.add(6, 6);
+			ll.add(4, 2);
+			ll.add(5, 5);
+			ll.add(6, 7);
 
-			expect(ll.getList()).to.deep.equal([3, 4, 1, 2, 5]);
+			expect(ll.getList()).to.deep.equal([3, 8, 4, 1, 2, 5]);
 			expect(ll.pop()).to.equal(5);
 			expect(ll.remove()).to.equal(3);
+			expect(ll.remove()).to.equal(8);
 			expect(ll.getList()).to.deep.equal([4, 1, 2]);
 			expect(ll.remove(1)).to.equal(1);
 			expect(ll.getList()).to.deep.equal([4, 2]);
