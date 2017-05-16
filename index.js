@@ -6,5 +6,6 @@ module.exports = {
 	LinkedList: require('./lib/linked-list'),
 	Stack: require('./lib/stack'),
 	Queue: require('./lib/queue'),
-	insertionSort: require('./lib/insertion-sort')
+	insertionSort: require('./lib/insertion-sort'),
+	shellSort: require('./lib/shell-sort')
 };

@@ -3,7 +3,7 @@
 const insertionSort = require('../').insertionSort,
 			expect = require('chai').expect;
 
-describe.only('Insertion sort', function () {
+describe('Insertion sort', function () {
 	it('should return an Array', function () {
 		let arr = [2, 3, 1];
 
