@@ -1,4 +1,4 @@
-'use qerict';
+'use strict';
 
 const shellSort = require('../').shellSort,
 			expect = require('chai').expect;

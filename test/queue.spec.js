@@ -1,4 +1,4 @@
-'use qerict';
+'use strict';
 
 const Queue = require('../').Queue,
 			expect = require('chai').expect;

@@ -1,4 +1,4 @@
-'use qerict';
+'use strict';
 
 const insertionSort = require('../').insertionSort,
 			expect = require('chai').expect;
