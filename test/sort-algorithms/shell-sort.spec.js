@@ -1,6 +1,6 @@
 'use strict';
 
-const shellSort = require('../').shellSort,
+const shellSort = require('../../').shellSort,
 			expect = require('chai').expect;
 
 describe('Shell sort', function () {

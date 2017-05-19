@@ -1,6 +1,6 @@
 'use strict';
 
-const algolib = require('../'),
+const algolib = require('../../'),
 			expect = require('chai').expect;
 
 describe('LinkedList', function () {

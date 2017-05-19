@@ -1,6 +1,6 @@
 'use strict';
 
-const Stack = require('../').Stack,
+const Stack = require('../../').Stack,
 			expect = require('chai').expect;
 
 describe('Stack', function () {

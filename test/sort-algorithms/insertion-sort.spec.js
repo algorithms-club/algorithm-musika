@@ -1,6 +1,6 @@
 'use strict';
 
-const insertionSort = require('../').insertionSort,
+const insertionSort = require('../../').insertionSort,
 			expect = require('chai').expect;
 
 describe('Insertion sort', function () {

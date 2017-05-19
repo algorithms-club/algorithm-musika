@@ -1,6 +1,6 @@
 'use strict';
 
-const Queue = require('../').Queue,
+const Queue = require('../../').Queue,
 			expect = require('chai').expect;
 
 describe('Queue', function () {
