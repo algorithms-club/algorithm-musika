@@ -3,7 +3,7 @@
 const mergeSort = require('../../').mergeSort,
 			expect = require('chai').expect;
 
-describe.only('Selection sort', function () {
+describe('Selection sort', function () {
 	it('should return an Array', function () {
 		let arr = [2, 3, 1];
 
