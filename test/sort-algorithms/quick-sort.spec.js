@@ -3,7 +3,7 @@
 const qSort = require('../../').quickSort,
 			expect = require('chai').expect;
 
-describe.only('Quick sort', function () {
+describe('Quick sort', function () {
 	it('should return an Array', function () {
 		let arr = [2, 3, 1];
 

@@ -11,5 +11,6 @@ module.exports = {
 	shellSort: require('./lib/sort-algorithms/shell-sort'),
 	mergeSort: require('./lib/sort-algorithms/merge-sort'),
 	quickSort: require('./lib/sort-algorithms/quick-sort'),
+	heapSort: require('./lib/sort-algorithms/heap-sort'),
 	sort: require('./lib/sort-algorithms/sort')
 };
